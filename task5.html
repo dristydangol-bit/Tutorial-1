@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User Registration</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+        background-color: #f5f5f5;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    fieldset {
+        width: 400px;
+        margin-bottom: 20px;
+        padding: 15px;
+        background: white;
+    }
+
+    label {
+        display: inline-block;
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    input, select {
+        margin-top: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+
+    .small-input {
+        width: 80px;
+    }
+
+    .buttons {
+        margin-top: 15px;
+    }
+
+    footer {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>User Registration</h1>
+
+<form>
+
+<fieldset>
+<legend>Personal Details</legend>
+
+<label>First Name:</label>
+<input type="text" value="Justina"><br>
+
+<label>Last Name:</label>
+<input type="text" value="Dotson"><br>
+
+<label>Age:</label>
+<input type="number" value="41" class="small-input"><br>
+
+<label>Gender:</label>
+<select>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+</select><br>
+
+<label>Profile Picture:</label>
+<input type="file"><br>
+
+</fieldset>
+
+<fieldset>
+<legend>Account Details</legend>
+
+<label>Email:</label>
+<input type="email" value="buzepl@mailinator.com"><br>
+
+<label>Password:</label>
+<input type="password" value="12345678"><br>
+
+<label>Role:</label>
+<input type="radio" name="role"> Admin
+<input type="radio" name="role" checked> User
+
+</fieldset>
+
+<input type="checkbox" checked> I agree to the terms and conditions <br><br>
+
+<button type="submit">Register</button>
+<button type="reset">Reset</button>
+
+</form>
+
+<footer>
+© 2024 My Todo List. All rights reserved.
+</footer>
+
+</body>
+</html>
